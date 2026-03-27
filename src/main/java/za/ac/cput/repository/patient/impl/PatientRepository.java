@@ -1,5 +1,9 @@
 package za.ac.cput.repository.patient.impl;
+/*
+ * Sesona Ntshatsha
+ * 240773365
 
+ */
 import za.ac.cput.domain.Patient;
 
 import java.util.HashMap;
@@ -53,3 +57,5 @@ public class PatientRepository implements IPatientRepository {
         return new HashSet<>(patientDB.values());
     }
 }
+
+
